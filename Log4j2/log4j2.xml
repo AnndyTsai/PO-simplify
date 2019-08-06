@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<!-- 日志输出的位置 -->
+	<Properties>
+		<!-- 保存在当前路径的logs文件夹下 -->
+		<Property name="basePath">./logs</Property>
+	</Properties>
+	<!-- 日志输出的位置 -->
+	<Appenders>
+		<!-- filePattern表示滚动一天记录日志命名 -->
+		<RollingFile name="file" fileName="${basePath}/APP-test.log"
+			filePattern="${basePath}/test-%d{yyyy-MM-dd}.log">
+			<PatternLayout charset="UTF-8" pattern="[ %-5level] [%d{YYY-MM-dd-HH:mm:ss}] %msg%n" />
+			<Policies>
+				<!-- interval="1"基于时间触发RollingFile 表示滚动一天记录日志 -->
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy size="10 MB" />
+			</Policies>
+		</RollingFile>
+		<!-- 日志在控制台输出用 Console -->
+		<Console name="ConsoleOut">
+			<!-- 日志显示的风格 -->
+			<PatternLayout pattern="[ %-5level] [%d{YYY-MM-dd-HH:mm:ss}] %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<!-- 日志输出级别为info -->
+		<Root level="info">
+			<!-- 前面有定义RollingFile的名称为file -->
+			<AppenderRef ref="file" />
+			<AppenderRef ref="ConsoleOut" />
+		</Root>
+	</Loggers>
+</Configuration>
