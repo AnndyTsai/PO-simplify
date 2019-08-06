@@ -95,6 +95,7 @@ public class DriverBase {
 	public void close() {
 
 		driver.closeApp();
+		log.info("[Class-DriverBase][Method-close] 关闭当前APP");
 	}
 
 	/**

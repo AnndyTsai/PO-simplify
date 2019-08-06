@@ -12,7 +12,6 @@ import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
  
-@Listeners(cn.AnndyTsal.PO.PO_simplify.Listener.AssertListener.class)
 public class Assertion {
      
 	private static final Logger log = LogManager.getLogger(Assertion.class.getName());
@@ -88,23 +87,23 @@ public class Assertion {
      * */
     public static void verifyActualCotainers(String actual, String expected){
     	
-    	boolean flag = false;
+    	boolean tag = false;
     	
     	if(expected.contains(actual)){
     		
-    		flag = true;
+    		tag = true;
     	}
     	
     	try{
     		
-    		Assert.assertEquals(flag, true);
+    		Assert.assertEquals(tag, true);
     		log.info("[Class-Assertion][Method-verifyActualCotainers] 实际数据："+flag+" 与预期数据：true相等");
     		
     	}catch(Error e){
     		
     		log.error("[Class-Assertion][Method-verifyActualCotainers] 实际与预期比不相等，输出信息：");
     		errors.add(e);
-            flag = false;
+    		flag = false;
     	}
     }
     /**
@@ -112,22 +111,22 @@ public class Assertion {
      * */
     public static void verifyExpectedCotainers(String actual, String expected){
     	
-    	boolean flag = false;
+    	boolean tag = false;
     	
     	if(actual.contains(expected)){
     		
-    		flag = true;
+    		tag = true;
     	}    	
     	try{
     		
-    		Assert.assertEquals(true, flag);
+    		Assert.assertEquals(true, tag);
     		log.info("[Class-Assertion][Method-verifyActualCotainers] 实际数据包含了预期数据 断言成功");
     		
     	}catch(Error e){
     		
     		log.error("[Class-Assertion][Method-verifyActualCotainers] 实际数据没有包含预期数据 断言失败");
     		errors.add(e);
-            flag = false;
+    		flag = false;
     	}
     }
 }

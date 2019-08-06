@@ -1,0 +1,63 @@
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 0.0.0.0:7707
+[36minfo[39m: [debug] Non-default server args: {"udid":"88MFBML3H4MH","port":7707,"bootstrapPort":7708}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appPackage":"com.zhihu.android","appActivity":"com.zhihu.android.app.ui.activity.LauncherActivity","resetKeyBoard":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyBoard":true,"udid":"88MFBML3H4MH","platformName":"Android","deviceName":"Android"}}[39m
+[36minfo[39m: Client User-Agent string: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : resetKeyBoard, unicodeKeyBoard
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session 6e90c835-c98f-4427-84ae-a49f82eb13b6
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_191
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from E:\adt-bundle\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 1 device(s) connected
+[36minfo[39m: Found device 88MFBML3H4MH
+[36minfo[39m: [debug] Setting device id to 88MFBML3H4MH
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH wait-for-device
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "echo 'ready'"
+[36minfo[39m: [debug] Retrying restartAdb
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH kill-server
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH devices
+[36minfo[39m: [debug] 1 device(s) connected
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH wait-for-device
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "echo 'ready'"
+[36minfo[39m: [debug] Retrying restartAdb
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH kill-server
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH devices
+[36minfo[39m: [debug] 1 device(s) connected
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH wait-for-device
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "echo 'ready'"
+[36minfo[39m: [debug] Retrying restartAdb
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH kill-server
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH devices
+[36minfo[39m: [debug] 1 device(s) connected
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH wait-for-device
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "echo 'ready'"
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH kill-server
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH devices
+[36minfo[39m: [debug] 1 device(s) connected
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH wait-for-device
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "echo 'ready'"
+[36minfo[39m: [debug] Sent shutdown command, waiting for UiAutomator to stop...
+[33mwarn[39m: UiAutomator did not shut down fast enough, calling it gone
+[36minfo[39m: [debug] Cleaning up android objects
+[36minfo[39m: [debug] Cleaning up appium session

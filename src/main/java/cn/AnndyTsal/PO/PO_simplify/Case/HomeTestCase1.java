@@ -3,28 +3,39 @@
  * */
 package cn.AnndyTsal.PO.PO_simplify.Case;
 
-import java.util.Map;
-
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import cn.AnndyTsal.PO.PO_simplify.Base.DriverBase;
 import cn.AnndyTsal.PO.PO_simplify.Buss.HomeBuss1;
 
+@Listeners(cn.AnndyTsal.PO.PO_simplify.Listener.AssertListener.class)
 public class HomeTestCase1 extends CaseBase{
 	
 	private DriverBase driver;
 	private HomeBuss1 hb1;
 	
-	public HomeTestCase1(){
+	/**
+	 * 设计模式为一个测试点一条用例 每次都需要关闭APP 启动APP
+	 * */
+	@BeforeTest
+	public void init(){
 		
-		this.driver = initDriver();		
+		driver = initDriver();		
 		hb1 = new HomeBuss1(driver);	
 	}
 	
-	@Test
-	public void case1(){
+	@AfterTest
+	public void closeAPP(){
 		
-		Map<Integer, String> map = hb1.Buss_HomePage_top10Topics();
-		System.out.println(map.toString());
+		driver.close();
+	}
+	
+	@Test
+	public void loginCase(){
+		
+		hb1.loginBuss("11221514596", "1122334455");
 	}
 }

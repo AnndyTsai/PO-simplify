@@ -9,13 +9,17 @@ import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
+import cn.AnndyTsal.PO.PO_simplify.Assert.Assertion;
 import cn.AnndyTsal.PO.PO_simplify.Base.DriverBase;
 import cn.AnndyTsal.PO.PO_simplify.Page.pageBase1;
 import cn.AnndyTsal.PO.PO_simplify.Utlis.readProperties;
 import io.appium.java_client.MobileElement;
 import cn.AnndyTsal.PO.PO_simplify.Base.by;
 
+@Listeners(cn.AnndyTsal.PO.PO_simplify.Listener.AssertListener.class)
 public class HomeBuss1 {
 
 	private pageBase1 pb1;
@@ -84,5 +88,67 @@ public class HomeBuss1 {
 			}
 		}		
 		return map;
+	}
+	
+	/**
+	 * 判断张海是否已登录 
+	 * 1：已登录退出
+	 * 2：未登录关闭APP
+	 * */
+	public boolean isLogin(){
+		boolean flag = true;//默认为未登录 
+		List<MobileElement> elements = pb1.elements(by.by("bottomTitle"));
+		for (MobileElement mobileElement : elements) {
+			
+			if(mobileElement.getText().contains("登录")){
+				
+				flag = false;
+			}
+		}		
+		return flag;
+	}
+	
+	/**
+	 * 根据当前登录状态 执行操作
+	 * 1：如果是登录状态 退出当前登录操作 执行登录
+	 * 2:如果是未登录状态 直接登录
+	 * */
+	public void loginBuss(String userName, String PassWord){
+		
+		if(this.isLogin()){ //如果是登录状态 退出当前登录操作 执行登录
+			log.info("[Class-HomeBuss1][Method-loginBuss] 当前APP已有账号登录 执行退出登录操作");
+			pb1.click(pb1.element(by.by("myBtn")));
+			pb1.click(pb1.element(by.by("setting")));
+			//执行向下滑动操作
+			Integer X = pb1.getWidthAndHeight().get(0);
+			Integer Y = pb1.getWidthAndHeight().get(1);
+			while(true){
+				
+				pb1.driverSwipe(X/2, 5*Y/7, X/2, Y/7);
+				MobileElement element = pb1.element(by.by("logout"));
+				if(element != null){
+					
+					break;
+				}
+				
+				pb1.click(element);
+			}
+		}
+		//执行登录操作	
+		log.info("[Class-HomeBuss1][Method-loginBuss] 当前APP已经退出登录 或者为登录 执行登录操作");
+		pb1.click(pb1.element(by.by("loginBtn")));
+		pb1.click(pb1.element(by.by("otherLogin")));
+		pb1.sendKeys(pb1.element(by.by("loginUserName")),userName);
+		pb1.sendKeys(pb1.element(by.by("loginPassWord")),PassWord);
+		pb1.click(pb1.element(by.by("loginButtion")));
+		
+		//断言是否登录成功 isloginSuccess
+		boolean flags = false;
+		if(pb1.element(by.by("isloginSuccess")) == null){
+			System.out.println(pb1.element(by.by("isloginSuccess")).toString()+"======元素为null======");
+			flags = true;
+		}
+		System.out.println(pb1.element(by.by("isloginSuccess")).getText()+"======元素不为null======");
+		Assertion.verifyNulls(flags, true, "预期为空 实际不为空");
 	}
 }
