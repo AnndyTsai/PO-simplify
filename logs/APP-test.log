@@ -1321,3 +1321,70 @@
 [ INFO ] [2019-08-06-18:09:43] [Class-pageBase1][Method-element] 未定位到元素
 [ ERROR] [2019-08-06-18:09:43] [Class-Assertion][Method-verifyNulls] 实际与预期比不相等，输出信息：预期为空 实际不为空
 [ INFO ] [2019-08-06-18:09:44] [Class-DriverBase][Method-close] 关闭当前APP
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:36] [Class-startAppiumServer][Method-Map] 清除node进程成功
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:36] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:37] [Class-startAppiumServer][Method-Map] 开始启动Appium-Server
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:37] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:47] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:47] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:47] [Class-startAppiumServer][Method-Map] Appium-Server启动完成
+[ INFO ] [2019-08-06-18:42:47] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-18:42:47] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-18:42:47] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-18:42:47] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-18:42:47] [Class-DriverBase] 当前连接上Appium-server的设备UUID是：[88MFBML3H4MH]
+[ INFO ] [2019-08-06-18:42:47] [Class-DriverBase] 启动的UUID是:[88MFBML3H4MH],启动的Appium端口是：[6857]
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 当前APP已安装
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 调用‘initDriver’方法
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 创建DesiredCapabilities对象
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-DeviceName：Android
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appPackagecom.zhihu.android
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appActivitycom.zhihu.android.app.ui.activity.LauncherActivity
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-session超时时间600S
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-udid超时时间-->88MFBML3H4MH
+[ INFO ] [2019-08-06-18:42:47] [Class-initDriver][Method-getDriver] 启动Andriod Driver,启动在【6857】端口,UUID是：【88MFBML3H4MH】...
+[ INFO ] [2019-08-06-18:42:55] [Class-initDriver][Method-getDriver] 启动Andriod Driver成功...
+[ INFO ] [2019-08-06-18:42:55] [Class-by][Method-by] 当前定位方式是id,定位元素com.zhihu.android:id/tab_title
+[ INFO ] [2019-08-06-18:43:04] [Class-pageBase1][Method-elements] 元素为[[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/tab_title], [[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/tab_title], [[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/tab_title], [[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/tab_title]]
+[ INFO ] [2019-08-06-18:43:05] [Class-HomeBuss1][Method-loginBuss] 当前APP已经退出登录 或者为登录 执行登录操作
+[ INFO ] [2019-08-06-18:43:05] [Class-by][Method-by] 当前定位方式是name,定位元素未登录
+[ INFO ] [2019-08-06-18:43:05] [Class-pageBase1][Method-element] 元素为[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> name: 未登录]
+[ INFO ] [2019-08-06-18:43:09] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> name: 未登录]
+[ INFO ] [2019-08-06-18:43:09] [Class-by][Method-by] 当前定位方式是name,定位元素其他方式登录
+[ INFO ] [2019-08-06-18:43:10] [Class-pageBase1][Method-element] 元素为[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> name: 其他方式登录]
+[ INFO ] [2019-08-06-18:43:12] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> name: 其他方式登录]
+[ INFO ] [2019-08-06-18:43:12] [Class-by][Method-by] 当前定位方式是id,定位元素com.zhihu.android:id/email_input_view
+[ INFO ] [2019-08-06-18:43:12] [Class-pageBase1][Method-element] 元素为[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/email_input_view]
+[ INFO ] [2019-08-06-18:43:21] [Class-pageBase1][Method-sendKeys] [[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/email_input_view]元素输入11221514596
+[ INFO ] [2019-08-06-18:43:21] [Class-by][Method-by] 当前定位方式是id,定位元素com.zhihu.android:id/password
+[ INFO ] [2019-08-06-18:43:22] [Class-pageBase1][Method-element] 元素为[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/password]
+[ INFO ] [2019-08-06-18:43:30] [Class-pageBase1][Method-sendKeys] [[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> id: com.zhihu.android:id/password]元素输入1122334455
+[ INFO ] [2019-08-06-18:43:30] [Class-by][Method-by] 当前定位方式是name,定位元素登录
+[ INFO ] [2019-08-06-18:43:30] [Class-pageBase1][Method-element] 元素为[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> name: 登录]
+[ INFO ] [2019-08-06-18:43:31] [Class-pageBase1][Method-click] 点击元素-->[[AndroidDriver: Android on LINUX (132b3f1c-8e61-45af-86d5-7fac761c1d8c)] -> name: 登录]
+[ INFO ] [2019-08-06-18:43:31] [Class-by][Method-by] 当前定位方式是xpath,定位元素//*[contains(text(),"登录")]
+[ INFO ] [2019-08-06-18:43:46] [Class-pageBase1][Method-element] 未定位到元素
+[ INFO ] [2019-08-06-18:43:46] [Class-by][Method-by] 当前定位方式是xpath,定位元素//*[contains(text(),"登录")]
+[ INFO ] [2019-08-06-18:44:01] [Class-pageBase1][Method-element] 未定位到元素
+[ ERROR] [2019-08-06-18:44:01] [Class-Assertion][Method-verifyNulls] 实际与预期比不相等，输出信息：预期为空 实际不为空
+[ INFO ] [2019-08-06-18:44:02] [Class-DriverBase][Method-close] 关闭当前APP
