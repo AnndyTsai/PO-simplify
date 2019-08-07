@@ -1,4 +1,11 @@
-package cn.AnndyTsal.PO.PO_simplify.Listener;
+/**
+ * 断言失败后不中断执行的监听器
+ * 
+ * 使用方法有两种：
+ * 1：testng.xml配置文件中放置监听器
+ * 2：类上放置监听器(@Listener)注解的方式引入监听器
+ * */
+package cn.AnndyTsal.PO.PO_simplify.Listener.Assert;
 
 import java.util.ArrayList;
 import java.util.List;

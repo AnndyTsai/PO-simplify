@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82108" started-at="2019-08-06T10:08:22Z" finished-at="2019-08-06T10:09:44Z">
+  <suite name="Suite" duration-ms="87537" started-at="2019-08-07T13:20:57Z" finished-at="2019-08-07T13:22:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82108" started-at="2019-08-06T10:08:22Z" finished-at="2019-08-06T10:09:44Z">
+    <test name="Test" duration-ms="87537" started-at="2019-08-07T13:20:57Z" finished-at="2019-08-07T13:22:24Z">
       <class name="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1">
-        <test-method status="PASS" signature="init()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@462d5aee]" name="init" is-config="true" duration-ms="18626" started-at="2019-08-06T10:08:22Z" finished-at="2019-08-06T10:08:40Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@6a1aab78]" name="init" is-config="true" duration-ms="18915" started-at="2019-08-07T13:20:57Z" finished-at="2019-08-07T13:21:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="loginCase()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@462d5aee]" name="loginCase" duration-ms="62568" started-at="2019-08-06T10:08:40Z" finished-at="2019-08-06T10:09:43Z">
+        <test-method status="FAIL" signature="loginCase()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@6a1aab78]" name="loginCase" duration-ms="66794" started-at="2019-08-07T13:21:16Z" finished-at="2019-08-07T13:22:22Z">
           <exception class="java.lang.Throwable">
             <full-stacktrace>
               <![CDATA[java.lang.Throwable
-at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:39)
-at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:39)
+at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:59)
+at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:59)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCase -->
-        <test-method status="PASS" signature="closeAPP()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@462d5aee]" name="closeAPP" is-config="true" duration-ms="885" started-at="2019-08-06T10:09:43Z" finished-at="2019-08-06T10:09:44Z">
+        <test-method status="PASS" signature="closeAPP()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@6a1aab78]" name="closeAPP" is-config="true" duration-ms="994" started-at="2019-08-07T13:22:23Z" finished-at="2019-08-07T13:22:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAPP -->
       </class> <!-- cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

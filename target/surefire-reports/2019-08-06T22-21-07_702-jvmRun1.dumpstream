@@ -1,0 +1,81 @@
+# Created on 2019-08-06T22:21:12.593
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-08-06T22:21:21.896
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:21] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+
+
+# Created on 2019-08-06T22:21:21.898
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:21] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+
+
+# Created on 2019-08-06T22:21:21.903
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:21] [Class-startAppiumServer][Method-Map] Appium-Server启动完成
+
+
+# Created on 2019-08-06T22:21:21.905
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:21] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+
+
+# Created on 2019-08-06T22:21:21.940
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:21] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+
+
+# Created on 2019-08-06T22:21:21.942
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:21] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+
+
+# Created on 2019-08-06T22:21:22.078
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+
+
+# Created on 2019-08-06T22:21:22.080
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-DriverBase] 当前连接上Appium-server的设备UUID是：[88MFBML3H4MH]
+
+
+# Created on 2019-08-06T22:21:22.084
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-DriverBase] 启动的UUID是:[88MFBML3H4MH],启动的Appium端口是：[7154]
+
+
+# Created on 2019-08-06T22:21:22.087
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 当前APP已安装
+
+
+# Created on 2019-08-06T22:21:22.089
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 调用‘initDriver’方法
+
+
+# Created on 2019-08-06T22:21:22.095
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 创建DesiredCapabilities对象
+
+
+# Created on 2019-08-06T22:21:22.097
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-DeviceName：Android
+
+
+# Created on 2019-08-06T22:21:22.098
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appPackagecom.zhihu.android
+
+
+# Created on 2019-08-06T22:21:22.101
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appActivitycom.zhihu.android.app.ui.activity.LauncherActivity
+
+
+# Created on 2019-08-06T22:21:22.106
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-session超时时间600S
+
+
+# Created on 2019-08-06T22:21:22.108
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-udid超时时间-->88MFBML3H4MH
+
+
+# Created on 2019-08-06T22:21:22.109
+Unexpected IOException with stream: [ INFO ] [2019-08-06-22:21:22] [Class-initDriver][Method-getDriver] 启动Andriod Driver,启动在【7154】端口,UUID是：【88MFBML3H4MH】...
+
+

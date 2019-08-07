@@ -19,7 +19,6 @@ import cn.AnndyTsal.PO.PO_simplify.Utlis.readProperties;
 import io.appium.java_client.MobileElement;
 import cn.AnndyTsal.PO.PO_simplify.Base.by;
 
-@Listeners(cn.AnndyTsal.PO.PO_simplify.Listener.AssertListener.class)
 public class HomeBuss1 {
 
 	private pageBase1 pb1;

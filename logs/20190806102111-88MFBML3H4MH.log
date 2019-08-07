@@ -1,0 +1,99 @@
+[36minfo[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+[36minfo[39m: Appium REST http interface listener started on 0.0.0.0:7154
+[36minfo[39m: [debug] Non-default server args: {"udid":"88MFBML3H4MH","port":7154,"bootstrapPort":7155}
+[36minfo[39m: Console LogLevel: debug
+[36minfo[39m: [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appPackage":"com.zhihu.android","appActivity":"com.zhihu.android.app.ui.activity.LauncherActivity","resetKeyBoard":true,"noSign":true,"newCommandTimeout":600,"unicodeKeyBoard":true,"udid":"88MFBML3H4MH","platformName":"Android","deviceName":"Android"}}[39m
+[36minfo[39m: Client User-Agent string: Apache-HttpClient/4.5.2 (Java/1.8.0_191)
+[36minfo[39m: [debug] The following desired capabilities were provided, but not recognized by appium. They will be passed on to any other services running on this server. : resetKeyBoard, unicodeKeyBoard
+[36minfo[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+[36minfo[39m: [debug] Creating new appium session ed46c5e7-7d05-4ee2-ae79-bca4cbe704b5
+[36minfo[39m: Starting android appium
+[36minfo[39m: [debug] Getting Java version
+[36minfo[39m: Java version is: 1.8.0_191
+[36minfo[39m: [debug] Checking whether adb is present
+[36minfo[39m: [debug] Using adb from E:\adt-bundle\sdk\platform-tools\adb.exe
+[33mwarn[39m: No app capability, can't parse package/activity
+[36minfo[39m: [debug] Using fast reset? true
+[36minfo[39m: [debug] Preparing device for session
+[36minfo[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+[36minfo[39m: Retrieving device
+[36minfo[39m: [debug] Trying to find a connected android device
+[36minfo[39m: [debug] Getting connected devices...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe devices
+[36minfo[39m: [debug] 1 device(s) connected
+[36minfo[39m: Found device 88MFBML3H4MH
+[36minfo[39m: [debug] Setting device id to 88MFBML3H4MH
+[36minfo[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH wait-for-device
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "echo 'ready'"
+[36minfo[39m: [debug] Starting logcat capture
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: Device API level is: 22
+[36minfo[39m: [debug] Extracting strings for language: default
+[36minfo[39m: [debug] Apk doesn't exist locally
+[36minfo[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "rm -rf /data/local/tmp/strings.json"
+[36minfo[39m: [debug] Not uninstalling app since server not started with --full-reset
+[36minfo[39m: [debug] Skipping install since we launched with a package instead of an app path
+[36minfo[39m: [debug] Forwarding system:7155 to device:4724
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH forward tcp:7155 tcp:4724
+[36minfo[39m: [debug] Pushing appium bootstrap to device...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH push "D:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+[36minfo[39m: [debug] Pushing settings apk to device...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH install "D:\Program Files (x86)\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+[36minfo[39m: [debug] Pushing unlock helper app to device...
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH install "D:\Program Files (x86)\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+[36minfo[39m: Starting App
+[36minfo[39m: [debug] Attempting to kill all 'uiautomator' processes
+[36minfo[39m: [debug] Getting all processes with 'uiautomator'
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "ps 'uiautomator'"
+[36minfo[39m: [debug] No matching processes found
+[36minfo[39m: [debug] Running bootstrap
+[36minfo[39m: [debug] spawning: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.zhihu.android -e disableAndroidWatchers false
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1[39m
+[36minfo[39m: [debug] [90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1[39m
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Loading json...
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+[36minfo[39m: [debug] Waking up device if it's not alive
+[36minfo[39m: [debug] Pushing command to appium work queue: ["wake",{}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Client connected
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "dumpsys window"
+[36minfo[39m: [debug] Screen already unlocked, continuing.
+[36minfo[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+[36minfo[39m: [debug] dataDir set to: /data/local/tmp
+[36minfo[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+[36minfo[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+[36minfo[39m: [debug] Getting device API level
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "getprop ro.build.version.sdk"
+[36minfo[39m: [debug] Device is at API Level 22
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.zhihu.android/com.zhihu.android.app.ui.activity.LauncherActivity"
+[36minfo[39m: [debug] Waiting for pkg "com.zhihu.android" and activity "com.zhihu.android.app.ui.activity.LauncherActivity" to be focused
+[36minfo[39m: [debug] Getting focused package and activity
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "dumpsys window windows"
+[36minfo[39m: [37m<-- POST /wd/hub/session [39m[32m-[39m[90m - ms - -[39m [90m[39m
+[36minfo[39m: [debug] executing cmd: E:\adt-bundle\sdk\platform-tools\adb.exe -s 88MFBML3H4MH shell "getprop ro.build.version.release"
+[36minfo[39m: [debug] Device is at release version 5.1
+[36minfo[39m: [debug] Device launched! Ready for commands
+[36minfo[39m: [debug] Setting command timeout to 600 secs
+[36minfo[39m: [debug] Appium session started with sessionId ed46c5e7-7d05-4ee2-ae79-bca4cbe704b5

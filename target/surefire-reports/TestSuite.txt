@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 33.775 s <<< FAILURE! - in TestSuite
+init(cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1)  Time elapsed: 33.566 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Anndy-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: initDriver
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.init(HomeTestCase1.java:26)
+Caused by: org.openqa.selenium.WebDriverException: 
+java.net.SocketException: Connection reset
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Anndy-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: initDriver
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.init(HomeTestCase1.java:26)
+Caused by: java.net.SocketException: Connection reset
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.init(HomeTestCase1.java:26)
+

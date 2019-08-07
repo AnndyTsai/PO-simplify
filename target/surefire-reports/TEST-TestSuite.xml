@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="33.775" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\JDK\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\workspace5\PO-simplify"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\workspace5\PO-simplify"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\JDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Anndy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\Program Files\Java\JDK\bin;D:\Program Files\Java\JDK\jre\bin;d:\Program Files (x86)\Mozilla Firefox;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Program Files (x86)\Skype\Phone\;E:\adt-bundle\sdk\tools;E:\adt-bundle\sdk\platform-tools;E:\adt-bundle\sdk\build-tools\android-4.4W;D:\Program Files (x86)\Appium\node_modules\.bin;D:\Program Files\nodejs\;D:\Program Files\Nox\bin;C:\Program Files\Common Files\Autodesk Shared\;E:\gradle-4.10.1-bin\gradle-4.10.1\bin;E:\mysql-5.7.25-winx64\bin;C:\Users\Anndy\AppData\Roaming\npm;d:\Program Files\JetBrains\WebStorm 2018.3.3\bin;;C:\Users\Anndy\AppData\Local\Programs\Fiddler;."/>
+    <property name="maven.conf" value="E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Anndy"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Anndy"/>
+    <property name="java.class.path" value="E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\JDK\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\JDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\JDK\jre\lib\resources.jar;D:\Program Files\Java\JDK\jre\lib\rt.jar;D:\Program Files\Java\JDK\jre\lib\sunrsasign.jar;D:\Program Files\Java\JDK\jre\lib\jsse.jar;D:\Program Files\Java\JDK\jre\lib\jce.jar;D:\Program Files\Java\JDK\jre\lib\charsets.jar;D:\Program Files\Java\JDK\jre\lib\jfr.jar;D:\Program Files\Java\JDK\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="init" classname="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1" time="33.566">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;Anndy-PC&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: initDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Anndy-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: initDriver
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.init(HomeTestCase1.java:26)
+Caused by: org.openqa.selenium.WebDriverException: 
+java.net.SocketException: Connection reset
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'Anndy-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: driver.version: initDriver
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.init(HomeTestCase1.java:26)
+Caused by: java.net.SocketException: Connection reset
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.init(HomeTestCase1.java:26)
+</failure>
+    <system-out><![CDATA[[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:40] [Class-startAppiumServer][Method-Map] 清除node进程成功
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:40] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:41] [Class-startAppiumServer][Method-Map] 开始启动Appium-Server
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:41] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:51] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:51] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:51] [Class-startAppiumServer][Method-Map] Appium-Server启动完成
+[ INFO ] [2019-08-06-21:43:51] [Class-executeCommand][Method-executed] 当前脚本执行在Windows系统上
+[ INFO ] [2019-08-06-21:43:51] [Class-executeCommand][Method-executed] 当前Appium-Server开始延时启动中....
+[ INFO ] [2019-08-06-21:43:51] [Class-executeCommand][Method-executed] 当前Appium-Server启动延时已经结束
+[ INFO ] [2019-08-06-21:43:51] [Class-executeCommand][Method-executed] 返回执行后的日志集合
+[ INFO ] [2019-08-06-21:43:51] [Class-DriverBase] 当前连接上Appium-server的设备UUID是：[88MFBML3H4MH]
+[ INFO ] [2019-08-06-21:43:51] [Class-DriverBase] 启动的UUID是:[88MFBML3H4MH],启动的Appium端口是：[7682]
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 当前APP已安装
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 调用‘initDriver’方法
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 创建DesiredCapabilities对象
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-DeviceName：Android
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appPackagecom.zhihu.android
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-appActivitycom.zhihu.android.app.ui.activity.LauncherActivity
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-session超时时间600S
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 设置DesiredCapabilities参数-udid超时时间-->88MFBML3H4MH
+[ INFO ] [2019-08-06-21:43:51] [Class-initDriver][Method-getDriver] 启动Andriod Driver,启动在【7682】端口,UUID是：【88MFBML3H4MH】...
+]]></system-out>
+  </testcase>
+  <testcase name="loginCase" classname="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;Anndy-PC&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: driver.version: initDriver"/>
+  </testcase>
+  <testcase name="closeAPP" classname="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -5,9 +5,7 @@
     <classes>
       <class name="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1">
         <methods>
-          <include name="closeAPP"/>
-          <include name="loginCase"/>
-          <include name="init"/>
+          <include name="Demo1"/>
         </methods>
       </class> <!-- cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1 -->
     </classes>

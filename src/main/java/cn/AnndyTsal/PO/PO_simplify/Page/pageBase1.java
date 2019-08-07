@@ -26,7 +26,7 @@ public class pageBase1 {
 
 		this.driver = driver;
 	}
-
+	
 	/**
 	 * element方法
 	 */
@@ -98,7 +98,6 @@ public class pageBase1 {
 		}
 
 	}
-
 	/**
 	 * 封装滑动的操作
 	 */
@@ -109,7 +108,6 @@ public class pageBase1 {
 		log.info("[Class-pageBase1][Method-driverSwipe] 滑动坐标从[" + startx + " " + starty + "]-->[" + endx + " " + endy
 				+ "]");
 	}
-
 	/**
 	 * 封装获取APP高度 宽度的操作
 	 * 

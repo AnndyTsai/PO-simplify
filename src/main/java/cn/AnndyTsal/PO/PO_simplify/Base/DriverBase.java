@@ -3,6 +3,7 @@
  * */
 package cn.AnndyTsal.PO.PO_simplify.Base;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -13,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 
 import cn.AnndyTsal.PO.PO_simplify.Server.deviceNumbers;
 import cn.AnndyTsal.PO.PO_simplify.Server.startAppiumServer;
@@ -156,8 +158,22 @@ public class DriverBase {
 		driver.tap(fingers, element, duration);
 	}
 	
-	public static void main(String[] args) {
+	/**
+	 * 封装截图方法
+	 * */
+	public File shotScreen(){
 		
-		new DriverBase();
+		File screenshotAs = null;
+		
+		try{
+			
+			screenshotAs = driver.getScreenshotAs(OutputType.FILE);
+			
+		}catch(Exception e){
+			
+			log.info("[Class-DriverBase][Method-shotScreen] 截图失败");
+		}
+		
+		return screenshotAs;
 	}
 }
