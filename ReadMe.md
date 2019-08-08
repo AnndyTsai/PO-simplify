@@ -1,6 +1,7 @@
 # ExtentX结合ExtendReporter生成报告
 
-** 注意：本项目有关ExtentX的源码请查考路径：PO_simplify.Listener.Report.ExtentXReport **
+* 注意：本项目有关ExtentX的源码请查考路径：PO_simplify.Listener.Report.ExtentXReport
+* 本项目是一个完整的PageObject设计模式的APP自动化测试基础框架
 
 ## ExtentX的简单介绍
 
