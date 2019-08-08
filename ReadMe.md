@@ -33,12 +33,12 @@
 
 ### ExtentX服务端的Report截图
 
-![ext1](https://github.com/AnndyTsai/PO_simplify/ext/ext1.png ''ext1-ExtentX服务端的Report截图1'')
-![ext2](https://github.com/AnndyTsai/PO_simplify/ext/ext2.png ''ext1-ExtentX服务端的Report截图2'')
+![ext1](https://github.com/AnndyTsai/PO-simplify/blob/master/ext/ext1.png ''ext1-ExtentX服务端的Report截图1'')
+![ext2](https://github.com/AnndyTsai/PO-simplify/blob/master/ext/ext2.png ''ext1-ExtentX服务端的Report截图2'')
 
 ### ExtendReporter静态HTML效果截图
 
-![ext3](https://github.com/AnndyTsai/PO_simplify/ext/ext3.png ''ExtendReporter静态HTML效果截图'')
+![ext3](https://github.com/AnndyTsai/PO-simplify/blob/master/ext/ext3.png ''ExtendReporter静态HTML效果截图'')
 
 
 ## 温馨提示
