@@ -3,17 +3,14 @@
  * */
 package cn.AnndyTsal.PO.PO_simplify.Case;
 
-import static org.testng.Assert.assertEquals;
-
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import cn.AnndyTsal.PO.PO_simplify.Assert.Assertion;
 import cn.AnndyTsal.PO.PO_simplify.Base.DriverBase;
 import cn.AnndyTsal.PO.PO_simplify.Buss.HomeBuss1;
-import cn.AnndyTsal.PO.PO_simplify.Listener.RetryWithPO.Annotations.RetryCountIfFailed;
 import cn.AnndyTsal.PO.PO_simplify.Listener.shotScreen.Annotations.screenshot;
 
 
@@ -22,13 +19,13 @@ public class HomeTestCase1 extends CaseBase{
 	
 	private DriverBase driver;
 	private HomeBuss1 hb1;
+	
 	/**
 	 * getDriver方法
 	 * */
 	public DriverBase getDriver() {
 		return driver;
 	}
-
 	/**
 	 * 设计模式为一个测试点一条用例 每次都需要关闭APP 启动APP
 	 * @return 
@@ -47,12 +44,12 @@ public class HomeTestCase1 extends CaseBase{
 	}
 	
 	@Test
-	//@screenshot(isScreenshot=true,name="自动化测试",file="")
+	@screenshot(isScreenshot=true,name="自动化测试")
 	public void loginCase(){
 		
+		Reporter.log("执行登录操作测试用例");
 		hb1.loginBuss("11221514596", "1122334455");
 		
-		System.out.println("testCase--Driver"+driver);
 	}	
 	
 }

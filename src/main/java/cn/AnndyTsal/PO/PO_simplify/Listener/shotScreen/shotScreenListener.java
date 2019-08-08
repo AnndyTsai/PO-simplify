@@ -56,7 +56,7 @@ public class shotScreenListener implements ITestListener {
 			// Listener添加的class中一定需要get方法
 			Method method = result.getInstance().getClass().getMethod("getDriver");
 			driver = (DriverBase) method.invoke(result.getInstance());
-
+			
 		} catch (Exception e) {
 
 			log.error("[Class-shotScreenListener][Method-onTestFailure] 获取AndroidDriver实例对象失败");
@@ -67,6 +67,7 @@ public class shotScreenListener implements ITestListener {
 		if (pictureFile == null || pictureFile == "" || pictureFile.length() == 0) {
 
 			path = new File("screenshots");
+			pictureFile ="";
 
 		} else {
 
@@ -80,13 +81,6 @@ public class shotScreenListener implements ITestListener {
 
 		String name = path.getAbsolutePath() + File.separator + className + "-" + result.getMethod().getMethodName()
 				+ pictureName + ".png";
-		if (pictureFile == null || pictureFile == "" || pictureFile.length() == 0) {
-
-			name = path.getAbsolutePath() + File.separator + className + "-" + result.getMethod().getMethodName()
-					+ ".png";
-		} else {
-
-		}
 
 		if (isScreenshot) {
 			// 判断需求 执行截图操作
@@ -96,11 +90,15 @@ public class shotScreenListener implements ITestListener {
 				FileUtils.copyFile(shotScreen, new File(name));
 				log.info("[Class-shotScreenListener][Method-onTestFailure] 复制图片成功,图片复制到-->" + name);
 			} catch (IOException e) {
-				log.error("[Class-shotScreenListener][Method-onTestFailure] 复制图片失败-->" + className + "-"
-						+ result.getMethod().getMethodName());
+				log.error("[Class-shotScreenListener][Method-onTestFailure] 复制图片失败-->");
 				e.printStackTrace();
 			}
 		}
+		/**
+		 * 错误截图 放置在extendReporter中
+		 * */
+		result.setAttribute("screenShot", name);
+		log.info("[Class-shotScreenListener][Method-onTestFailure] 设置属性screenShot为："+name);
 	}
 
 	@Override

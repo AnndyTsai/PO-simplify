@@ -10,11 +10,11 @@ import java.lang.annotation.Target;
 public @interface screenshot  {
 
 	// 是否截图 默认需要截图
-	boolean isScreenshot() default true;
+	public boolean isScreenshot() default true;
 	
 	//图片命名  默认为null
-	String name() default "";
+	public String name() default "";
 	
-//	//截图类型
-	String file();
+	//截图自定义文件位置
+	public String file() default "";
 }
