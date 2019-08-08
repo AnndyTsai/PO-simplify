@@ -5,7 +5,7 @@
     <classes>
       <class name="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1">
         <methods>
-          <include name="Demo1"/>
+          <include name="demo1"/>
         </methods>
       </class> <!-- cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1 -->
     </classes>
