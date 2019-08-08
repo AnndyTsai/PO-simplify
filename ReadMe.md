@@ -23,11 +23,11 @@
 
 > testng.xml 中增加listener
 
-(```)
+```
 <listeners>	
 	<listener class-name="cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentXReport.ExtentTestNGITestListener"/>
 </listeners>
-(```)
+```
 
 ## 效果展示
 
