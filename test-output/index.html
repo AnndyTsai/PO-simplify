@@ -129,8 +129,8 @@
                   </a> <!-- loginCase -->
                   <span class="method-name">loginCase</span>
                   <div class="stack-trace">java.lang.Throwable
-	at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:52)
-	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:52)
+	at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:50)
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:50)
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -148,8 +148,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;cn.AnndyTsal.PO.PO_simplify.Listener.shotScreen.shotScreenListener&quot;/&gt;
-    &lt;listener class-name=&quot;cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentTestNGIReporterListener&quot;/&gt;
+    &lt;listener class-name=&quot;cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentTestNGITestListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
@@ -201,7 +200,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginCase')
 data.setCell(0, 2, 'cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1')
-data.setCell(0, 3, 63439);
+data.setCell(0, 3, 63530);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -247,11 +246,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginCase</span>
-                <span class="method-start">17786 ms</span>
+                <span class="method-start">16757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeAPP</span>
-                <span class="method-start">82079 ms</span>
+                <span class="method-start">82358 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

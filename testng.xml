@@ -2,10 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
+	<!-- 
 		<listener
 			class-name="cn.AnndyTsal.PO.PO_simplify.Listener.shotScreen.shotScreenListener" />
 		<listener
 			class-name="cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentTestNGIReporterListener" />
+	 -->
+		<listener class-name="cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentXReport.ExtentTestNGITestListener"/>
 	</listeners>
 	<test thread-count="1" name="Test">
 		<classes>

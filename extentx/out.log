@@ -1,0 +1,25 @@
+[32minfo: [39m
+[32minfo: [39m               .-..-.
+[32minfo: [39m
+[32minfo: [39m   Sails              <|    .-..-.
+[32minfo: [39m   v0.12.4             |\
+[32minfo: [39m                      /|.\
+[32minfo: [39m                     / || \
+[32minfo: [39m                   ,'  |'  \
+[32minfo: [39m                .-'.-==|/_--'
+[32minfo: [39m                `--'-------' 
+[32minfo: [39m   __---___--___---___--___---___--___
+[32minfo: [39m ____---___--___---___--___---___--___-__
+[32minfo: [39m
+[32minfo: [39mServer lifted in `E:\ExtentReport-master\extentx`
+[32minfo: [39mTo see your app, visit http://localhost:1337
+[32minfo: [39mTo shut down Sails, press <CTRL> + C at any time.
+[37m[39m
+[37m[39m
+{ Error: ENOENT: no such file or directory, rename 'E:\ExtentReport-master\extentx\7c6b2730-902f-4fc3-a798-f7cbcdb88885.png' -> 'E:\ExtentReport-master\extentx\.tmp\public\uploads\5d4c2fa2a9ccd618fc6ce94a\5d4c2fb3a9ccd618fc6ce94b\1.png'
+    at Error (native)
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: 'E:\\ExtentReport-master\\extentx\\7c6b2730-902f-4fc3-a798-f7cbcdb88885.png',
+  dest: 'E:\\ExtentReport-master\\extentx\\.tmp\\public\\uploads\\5d4c2fa2a9ccd618fc6ce94a\\5d4c2fb3a9ccd618fc6ce94b\\1.png' }

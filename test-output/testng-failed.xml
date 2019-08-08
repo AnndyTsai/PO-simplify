@@ -2,8 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="cn.AnndyTsal.PO.PO_simplify.Listener.shotScreen.shotScreenListener"/>
-    <listener class-name="cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentTestNGIReporterListener"/>
+    <listener class-name="cn.AnndyTsal.PO.PO_simplify.Listener.Report.ExtentTestNGITestListener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>

@@ -5,21 +5,21 @@
       <![CDATA[执行登录操作测试用例]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="83140" started-at="2019-08-08T10:57:18Z" finished-at="2019-08-08T10:58:41Z">
+  <suite name="Suite" duration-ms="83401" started-at="2019-08-08T14:20:18Z" finished-at="2019-08-08T14:21:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="83140" started-at="2019-08-08T10:57:18Z" finished-at="2019-08-08T10:58:41Z">
+    <test name="Test" duration-ms="83401" started-at="2019-08-08T14:20:18Z" finished-at="2019-08-08T14:21:42Z">
       <class name="cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1">
-        <test-method status="PASS" signature="init()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@732c2a62]" name="init" is-config="true" duration-ms="17769" started-at="2019-08-08T10:57:18Z" finished-at="2019-08-08T10:57:35Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@3c947bc5]" name="init" is-config="true" duration-ms="16736" started-at="2019-08-08T14:20:18Z" finished-at="2019-08-08T14:20:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="loginCase()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@732c2a62]" name="loginCase" duration-ms="63439" started-at="2019-08-08T10:57:35Z" finished-at="2019-08-08T10:58:39Z">
+        <test-method status="FAIL" signature="loginCase()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@3c947bc5]" name="loginCase" duration-ms="63530" started-at="2019-08-08T14:20:35Z" finished-at="2019-08-08T14:21:38Z">
           <exception class="java.lang.Throwable">
             <full-stacktrace>
               <![CDATA[java.lang.Throwable
-at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:52)
-at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:52)
+at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:50)
+at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:50)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.Throwable -->
@@ -29,7 +29,7 @@ at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:5
             </line>
           </reporter-output>
         </test-method> <!-- loginCase -->
-        <test-method status="PASS" signature="closeAPP()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@732c2a62]" name="closeAPP" is-config="true" duration-ms="1055" started-at="2019-08-08T10:58:40Z" finished-at="2019-08-08T10:58:41Z">
+        <test-method status="PASS" signature="closeAPP()[pri:0, instance:cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1@3c947bc5]" name="closeAPP" is-config="true" duration-ms="1037" started-at="2019-08-08T14:21:41Z" finished-at="2019-08-08T14:21:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAPP -->

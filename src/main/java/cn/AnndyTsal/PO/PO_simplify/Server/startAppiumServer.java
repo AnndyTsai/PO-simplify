@@ -25,7 +25,7 @@ public class startAppiumServer {
 		try {
 			if(System.getProperty("os.name").contains("indow")){
 				
-				executeCommand.executed("taskkill /f /t /im node.exe", false, 0);
+				//executeCommand.executed("taskkill /f /t /im node.exe", false, 0);
 				//log.info("[Class-startAppiumServer][Method-Map] 清除node进程成功");
 				log.info("[Class-startAppiumServer][Method-Map] 清除node进程成功");
 			}else{

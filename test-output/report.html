@@ -12,13 +12,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	
-		<link href='http://extentreports.com/resx/dist/css/extent.css' type='text/css' rel='stylesheet' />
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/9fa70d0ed9c34a8ed445ceee3494d3d7de7f8918/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
-	<title>api自动化测试报告</title>
+	<title>test-output/report.html</title>
 
-	<style type='text/css'>
-		.node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}
-	</style>
 </head>
 	<body class='extent standard default hide-overflow '>
 		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
@@ -37,7 +34,7 @@
 		</ul>
 
 		<!-- report name -->
-		<span class='report-name'>api自动化测试报告</span>
+		<span class='report-name'>XXX项目测试报告</span>
 		
 		<!-- report headline -->
 		<span class='report-headline'></span>
@@ -45,7 +42,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-				<span class='label suite-start-time'>Aug 8, 2019 6:46:44 PM</span>
+				<span class='label suite-start-time'>Aug 8, 2019 10:20:17 PM</span>
 			</a>
 			<a href='#!'>
 				<span class='label'>v3.0.3</span>
@@ -153,14 +150,14 @@
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>loginCase</span>
-						<span class='test-time'>Aug 8, 2019 6:46:44 PM</span>
+						<span class='test-time'>Aug 8, 2019 10:20:35 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Aug 8, 2019 6:46:44 PM</span>
-	<span class='label end-time'>Aug 8, 2019 6:47:48 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 4s+758ms</span>
+	<span class='label start-time'>Aug 8, 2019 10:20:35 PM</span>
+	<span class='label end-time'>Aug 8, 2019 10:21:39 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 4s+480ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -172,29 +169,24 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='debug'>
-					<td class='status debug' title='debug' alt='debug'><i class='material-icons'>low_priority</i></td>
-					<td class='timestamp'>6:47:50 PM</td>
-					<td class='step-details'>执行登录操作测试用例</td>
-				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>6:47:50 PM</td>
+					<td class='timestamp'>10:21:38 PM</td>
 					<td class='step-details'><pre>java.lang.Throwable
-	at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:60)
-	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:60)
+	at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:50)
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:50)
 </pre></td>
 				</tr>
 				<tr class='log' status='fail'>
 					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>6:47:50 PM</td>
+					<td class='timestamp'>10:21:39 PM</td>
 					<td class='step-details'>报错截图如下,点击放大</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
 							<ul class='screenshots'>
-								<li><img data-featherlight='G:\workspace5\PO-simplify\screenshots\HomeTestCase1-loginCase自动化测试.png' width='10%' src='' data-src='G:\workspace5\PO-simplify\screenshots\HomeTestCase1-loginCase自动化测试.png'></li>
+								<li><img data-featherlight='G:\workspace5\PO-simplify\screenshots\HomeTestCase1-loginCase.png' width='10%' src='' data-src='G:\workspace5\PO-simplify\screenshots\HomeTestCase1-loginCase.png'></li>
 							</ul>
 					</div>
 				</li>
@@ -264,11 +256,11 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 8, 2019 6:46:44 PM</td>
+										<td>Aug 8, 2019 10:20:35 PM</td>
 										<td class='linked' test-id='1'>loginCase</td>
 										<td><pre><pre>java.lang.Throwable
-	at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:60)
-	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:60)
+	at message : 预期为空 实际不为空 expected [true] but found [false] in method : .loginCase(HomeTestCase1:50)
+	at cn.AnndyTsal.PO.PO_simplify.Case.HomeTestCase1.loginCase(HomeTestCase1.java:50)
 </pre></pre></td>
 									</tr>
 								</tbody>
@@ -306,19 +298,35 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 8, 2019 6:46:44 PM</div>
+					<div class='panel-lead'>Aug 8, 2019 10:20:17 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 8, 2019 6:47:50 PM</div>
+			 		<div class='panel-lead'>Aug 8, 2019 10:21:42 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>66,889ms</div>
+					<div class='panel-lead'>84,493ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>os</td>
+								<td>Linux</td>
+							</tr>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -345,7 +353,7 @@
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 3,
+				exceptionsChild: 2,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
@@ -358,7 +366,7 @@
 			};
 		</script>
 		
-			<script src='http://extentreports.com/resx/dist/js/extent.js' type='text/javascript'></script>
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/9fa70d0ed9c34a8ed445ceee3494d3d7de7f8918/dist/js/extent.js' type='text/javascript'></script>
 		
 		
 	</body>

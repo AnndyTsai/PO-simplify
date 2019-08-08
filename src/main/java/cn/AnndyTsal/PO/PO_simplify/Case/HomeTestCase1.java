@@ -44,7 +44,6 @@ public class HomeTestCase1 extends CaseBase{
 	}
 	
 	@Test
-	@screenshot(isScreenshot=true,name="自动化测试")
 	public void loginCase(){
 		
 		Reporter.log("执行登录操作测试用例");
