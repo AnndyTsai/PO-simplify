@@ -11,7 +11,8 @@
 	
 * 请看下列介绍
 
-## 重构断言(Assertion)
+
+## 1：重构断言(Assertion)
 
 * 本方法包含2部分内容
 	* 1：重写Assert方法,Assertion.java(cn.AnndyTsal.PO.PO_simplify.Assert.Assertion)
@@ -23,18 +24,29 @@
 * 参考博客
 	* [断言失败Case继续执行-CSND](https://blog.csdn.net/hujyhfwfh2/article/details/85057366 "细节介绍")
 
-## ExtentX结合ExtendReporter生成报告
+
+##:2：失败截图(shotScreen)
+
+* 本方法支持注解开启、关闭截图@interface screenshot接口提供了下列3个参数方法：
+	* boolean isScreenshot()
+	* String name()
+	* String file()
+
+* 参考blog：[CSND-失败佛自动截图并保存](https://blog.csdn.net/hujyhfwfh2/article/details/98785983 "细节介绍")
+
+
+##:3：ExtentX结合ExtendReporter生成报告
 
 * 注意：本项目有关ExtentX的源码请查考路径：PO_simplify.Listener.Report.ExtentXReport
 * 本项目是一个完整的PageObject设计模式的APP自动化测试基础框架
 
-### ExtentX的简单介绍
+###:3.1：ExtentX的简单介绍
 
 * ExtendReporter只是面向前端的一个静态的HTML页面 每次运行会覆盖前一次的运行结果
 * ExtendReporter结合ExtentX不仅可以提供静态展示的HTML页面还可以在服务端记录每次的运行情况
 * ExtentX的使用需要在服务端安装node.js mongodb forever等
 
-### 部署与安装ExtentX
+###:3.2：部署与安装ExtentX
 
 * 安装部署node.js
 * 下载安装mongodb (不要大于3.6版本)
@@ -45,7 +57,7 @@
 * 进入extentx 目录 forever start -l forever.log -o out.log -e err.log app.js
 * 访问请使用：http://localhost:1337 (这个是localhost的默认配置 其他情况另当别论)
 
-### 监听器的使用
+###:3.3：监听器的使用
 
 > testng.xml 中增加listener
 
@@ -55,22 +67,25 @@
 </listeners>
 ```
 
-### 效果展示
+###:3.4：效果展示
 
-#### ExtentX服务端的Report截图
+####:3.4.1：ExtentX服务端的Report截图
 
 ![ext1](https://github.com/AnndyTsai/PO-simplify/blob/master/ext/ext1.png "ext1-ExtentX服务端的Report截图1")
 ![ext2](https://github.com/AnndyTsai/PO-simplify/blob/master/ext/ext2.png "ext1-ExtentX服务端的Report截图2")
 
-#### ExtendReporter静态HTML效果截图
+####:3.4.2：ExtendReporter静态HTML效果截图
 
 ![ext3](https://github.com/AnndyTsai/PO-simplify/blob/master/ext/ext3.png "ExtendReporter静态HTML效果截图")
 
 
-### 温馨提示
+###:3.5：温馨提示
 
 * ExtentX再本项目中是服务于自动化测试的一个Report系统的一部分
 * 请结合全文或者全部源码进行阅读
 * GitHub链接和CSND博客链接如下：
 [PO-simplify](https://github.com/AnndyTsai/PO-simplify "PO-simplify")
 [CSND-Blog](https://blog.csdn.net/hujyhfwfh2/article/list/1 "细节介绍")
+
+
+## 后续项目还会持续更新
