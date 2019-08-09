@@ -14,8 +14,8 @@
 ## 重构断言(Assertion)
 
 * 本方法包含2部分内容
-	-1：重写Assert方法,Assertion.java(cn.AnndyTsal.PO.PO_simplify.Assert.Assertion)
-	-2:继承TestListenerAdapter类  添加handleAssertion方法
+	* 1：重写Assert方法,Assertion.java(cn.AnndyTsal.PO.PO_simplify.Assert.Assertion)
+	* 2:继承TestListenerAdapter类  添加handleAssertion方法
 	
 * 重写断言方法的目的
 	* 实现断言失败后其他的Case还会继续执行 
