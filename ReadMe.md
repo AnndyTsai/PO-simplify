@@ -11,6 +11,18 @@
 	
 * 请看下列介绍
 
+## 重构断言(Assertion)
+
+* 本方法包含2部分内容
+	-1：重写Assert方法,Assertion.java(cn.AnndyTsal.PO.PO_simplify.Assert.Assertion)
+	-2:继承TestListenerAdapter类  添加handleAssertion方法
+	
+* 重写断言方法的目的
+	* 实现断言失败后其他的Case还会继续执行 
+	
+* 参考博客
+	* [断言失败Case继续执行-CSND](https://blog.csdn.net/hujyhfwfh2/article/details/85057366 "细节介绍")
+
 ## ExtentX结合ExtendReporter生成报告
 
 * 注意：本项目有关ExtentX的源码请查考路径：PO_simplify.Listener.Report.ExtentXReport
