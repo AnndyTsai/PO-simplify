@@ -46,7 +46,7 @@
 * ExtendReporter结合ExtentX不仅可以提供静态展示的HTML页面还可以在服务端记录每次的运行情况
 * ExtentX的使用需要在服务端安装node.js mongodb forever等
 
-###:3.2：部署与安装ExtentX
+### 3.2：部署与安装ExtentX
 
 * 安装部署node.js
 * 下载安装mongodb (不要大于3.6版本)
