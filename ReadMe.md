@@ -1,13 +1,15 @@
-# PO-simplify
+# PO-simplify介绍
 
-* PO-simplify项目是对传统的pageObject设计模式进行有大刀阔斧的改革,打破了传统PO设计模式的机械 呆板的设计风
+*** PO-simplify项目是对传统的pageObject设计模式进行有大刀阔斧的改革,打破了传统PO设计模式的机械 呆板的设计风**
 	* 1：优化传统PO设计模式的3层架构 PO-simplify采用传统PO设计模式的设计思想  减少Handle(业务层) 将业务层与Buss(操作层)合并,精简Page(页面层)代码，抽取共有方法 在Buss组装逻辑
 	* 2：与传统PO设计模式相比PO-simplify直接的业务流程是pagBase->Buss->Case(传统PO模式pageBase->Page->Handle->Buss->Case)
 	* 3:综上2点PO-simplify将会大幅度减少代码量，所有数据与业务处理集中在Buss层更加方便做数据驱动、更加方便修改数据来源(例如：Properties文件作为DB修改为MySQL作为数据来源 只用修改Buss层代码即可)
 	
-* 本项目包含了再做自动化测试常用到的一些代码的重构(结合TestNG实现)
+*** 本项目包含了再做自动化测试常用到的一些代码的重构(结合TestNG实现)**
 	* 1：重写了TestNG的断言方法(Package路径：cn.AnndyTsal.PO.PO_simplify.Assert)
 	* 2：实现了TestNG的监听器接口，例如：Assert、Report、Retry、shotScreen等(Package路径：cn.AnndyTsal.PO.PO_simplify.Listener)
+	
+** *请看下列介绍**
 
 ## ExtentX结合ExtendReporter生成报告
 
