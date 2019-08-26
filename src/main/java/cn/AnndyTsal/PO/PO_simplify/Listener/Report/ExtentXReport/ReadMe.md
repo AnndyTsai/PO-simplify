@@ -1,6 +1,6 @@
 # ExtentX结合ExtendReporter生成报告
 
-** 注意：本项目有关ExtentX的源码请查考路径：PO_simplify.Listener.Report.ExtentXReport **
+* 注意：本项目有关ExtentX的源码请查考路径：PO_simplify.Listener.Report.ExtentXReport 
 
 ## ExtentX的简单介绍
 
@@ -33,7 +33,7 @@
 
 ### ExtentX服务端的Report截图
 
-![ext1](https://github.com/AnndyTsai/PO-simplify/ext/ext1 ''ext1-ExtentX服务端的Report截图1'')
+![ext1](https://github.com/AnndyTsai/PO-simplify/ext/ext1''ext1-ExtentX服务端的Report截图1'')
 ![ext2](https://github.com/AnndyTsai/PO-simplify/ext/ext2 ''ext1-ExtentX服务端的Report截图2'')
 
 ### ExtendReporter静态HTML效果截图
