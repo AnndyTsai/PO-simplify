@@ -21,7 +21,7 @@
     "grunt-sails-linker": "0.10.1",
     "grunt-sync": "0.5.2",
     "include-all": "0.1.6",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "mongodb": "2.1.16",
     "mv": "2.1.1",
     "rc": "1.0.1",
